@@ -1,0 +1,41 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+main{
+	display: flex;
+    height: calc(100vh - 100px);
+    flex-direction: column;
+}
+
+header{
+	height: 100px;
+	background: #aaa;
+}
+
+.custom_txt{
+	border-radius:0px;
+}
+.custom_btn{
+	margin-left:0;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius:0;
+}
+h1{
+	text-align:center;
+}
+
+item {
+	background:#aaa;
+	margin-right: 10px;
+    margin-bottom: 10px;
+}
+.box_item{
+	padding:5px;
+}

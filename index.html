@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular js</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./app/assets/style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>Dynamic Directive Creation in Angular JS</h1>
+		</nav>
+	</header>
+	<main>
+		<div ng-app="app">
+			<div class="container">
+				<div ng-controller="testController">
+					<list-items></list-items>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.js"></script>
+<script src="/node_modules/angular/angular.js"></script>
+<script src="./app/src/app.js"></script>
+<script src="./app/src/controllers/testController.js"></script>
+<script src="./app/src/directives/listItems.js"></script>
+<script src="./app/src/services/dataServices.js"></script>
+</html>
